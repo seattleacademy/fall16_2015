@@ -22,7 +22,7 @@ function countup(){
 	navigator.compass.getCurrentHeading(onSuccess,onError)
 }
 
-function onSuccess(heading){
+function onSuccess(heading){ 
 	$("#mycompass").html(heading);
 }
 
